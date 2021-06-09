@@ -1,0 +1,21 @@
+.test {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+    &__gridcontainer {
+        display: grid;
+        grid-template-columns: repeat(4, 250px);
+        grid-template-rows: repeat(3, 250px);
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+
+        .rectangle {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            // margin: 0 auto;
+        }
+    }
+}

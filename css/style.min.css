@@ -1,0 +1,2 @@
+.test .container{width:1140px;margin:0 auto}.test__gridcontainer{display:-ms-grid;display:grid;-ms-grid-columns:(250px);grid-template-columns:repeat(4, 250px);-ms-grid-rows:(250px);grid-template-rows:repeat(3, 250px);gap:30px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.test__gridcontainer .rectangle{width:200px;height:200px;background-color:red}
+/*# sourceMappingURL=style.min.css.map */
