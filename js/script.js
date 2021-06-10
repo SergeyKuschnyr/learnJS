@@ -1,4 +1,4 @@
-const numberOfFilms = +prompt('Whot many film you wotch ?', '');
+const numberOfFilms = +prompt('How many movies have you seen ?', '');
 
 let personalMovieDB = {
     count: numberOfFilms,
@@ -8,10 +8,10 @@ let personalMovieDB = {
     privet: false
 };
 
-const a = prompt('Whoch last wotch your film ?', ''),
-    b = prompt('Give him reiting', ''),
-    c = prompt('Whoch last wotch your film ?', ''),
-    d = prompt ('Whoch last wotch your film ?', '');
+const a = prompt('What was the last movie you saw ?', ''),
+    b = prompt('please rate this movie', ''),
+    c = prompt('What was the last movie you saw ?', ''),
+    d = prompt('please rate this movie', '');
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
