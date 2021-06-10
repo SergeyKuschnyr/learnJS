@@ -16,4 +16,7 @@ const a = prompt('What was the last movie you saw ?', ''),
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
+personalMovieDB.actors[1] = 'robbert de niro';
+personalMovieDB.actors[2] = 'silvestr stalone';
+
 console.log(personalMovieDB);
